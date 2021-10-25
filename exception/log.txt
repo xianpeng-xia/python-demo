@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/roger/own/python-demo/exception/traceback_test.py", line 25, in <module>
+    main()
+  File "/Users/roger/own/python-demo/exception/traceback_test.py", line 9, in main
+    firstMethod()
+  File "/Users/roger/own/python-demo/exception/traceback_test.py", line 13, in firstMethod
+    secondMethod()
+  File "/Users/roger/own/python-demo/exception/traceback_test.py", line 17, in secondMethod
+    thirdMethod()
+  File "/Users/roger/own/python-demo/exception/traceback_test.py", line 21, in thirdMethod
+    raise SelfException("自定义异常")
+SelfException: 自定义异常
